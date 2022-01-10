@@ -1,2 +1,1 @@
-shows_downloads: true
-theme: jekyll-theme-modernist
+{ shows_downloads: true, theme: jekyll-theme-modernist }
