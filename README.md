@@ -2,7 +2,7 @@
 Proposed Revit best practices for PermitZIP
 
 ## First Tasks
-1. Generate Model Structure in BIM 360
+1. Generate Model Structure in `BIM 360`
 2. Identify Typical
 Coordinate with architect if possible.
 do this on a SINGLE shared pdf in a bluebeam session
