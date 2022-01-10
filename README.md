@@ -6,11 +6,11 @@ Proposed Revit best practices for PermitZIP
 
 ### 🏁 Planning
 
-- Build the `🗽BIM360 Model Structure` in `BIM 360` | **BIM Manager**
-- Identify typicals | **Design Lead**
+- Build the `🗽BIM360 Model Structure` in `BIM 360` /| **BIM Manager**
+- Identify typicals /| **Design Lead**
   - Coordinate with architect if possible.
   - Do this on a SINGLE shared pdf in a bluebeam session
-- Create the Sheet List in `Host.rvt` | **Design Lead**
+- Create the Sheet List in `Host.rvt` /| **Design Lead**
 
 ### 🗽BIM360 Model Structure
 
