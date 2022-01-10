@@ -1,4 +1,4 @@
-# revit-best-practices
+# Revit Best Practices
 
 Proposed Revit best practices for PermitZIP
 
