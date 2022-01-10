@@ -14,16 +14,20 @@ Proposed Revit best practices for PermitZIP
 
 ### 🗽BIM360 Model Structure
 
-- Host.rvt
-  - `Details, Specifications, Abbreviations, Notes`
-    - using `legend views` allow a single detail on multiple sheets
-  - `Project Phasing Overview`
-    - Projevt Phases Overview as `legend view`
-  - `Typicals.rvt`
+- **Host.rvt**
+  - **Legend View**
+    - using a `legend views` allows the same detail instance to show on multiple sheets. **do not duplicate details as copies!**
+    - Example Information:
+      - details
+      - specifications
+      - legend, abbreviations, notes
+  - **Project Phase Overview**
+    - Project Phases Overview as `legend view`
+  - **Typicals.rvt**
     - Typicals as `plans views`
-  - `Phase I.rvt`
+  - **Phase I.rvt**
     - Infrastructure as `plans views`
-  - `Phase II.rvt`
+  - **Phase II.rvt**
     - Infrastructure as `plans views`
-  - `Phase III.rvt`
+  - **Phase III.rvt**
     - Infrastructure as `plans views`
