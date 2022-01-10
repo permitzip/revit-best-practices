@@ -9,7 +9,7 @@ Proposed Revit best practices for PermitZIP
 Create the Sheet List in `Host.rvt`
 ## Proposed Model Structure
 - Host.rvt
-      - details as legends
+- details as legends
       - specifications as legends
       - Typicals.rvt
             - Phasing Plan View
