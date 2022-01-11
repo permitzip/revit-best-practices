@@ -1,4 +1,10 @@
 site_name: PermitZIP
 nav:
   - Home: index.md
-  - Multifamily: large-multifamily.md
+  - Large Multifam: large-multifam.md
+theme:
+  name: readthedocs
+  highlightjs: truetype
+
+site_author: Archingen, PLC
+copyright: (c) 2022 Archingen, PLC
