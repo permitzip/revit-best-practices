@@ -258,13 +258,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#proposed-model" class="md-nav__link">
-    ⊧ Proposed Model
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#planning" class="md-nav__link">
     🏁 Planning
   </a>
@@ -272,8 +265,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bim360-model-structure" class="md-nav__link">
-    🗽BIM360 Model Structure
+  <a href="#revit-model-structure" class="md-nav__link">
+    🏗 Revit Model Structure
   </a>
   
 </li>
@@ -313,13 +306,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#proposed-model" class="md-nav__link">
-    ⊧ Proposed Model
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#planning" class="md-nav__link">
     🏁 Planning
   </a>
@@ -327,8 +313,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bim360-model-structure" class="md-nav__link">
-    🗽BIM360 Model Structure
+  <a href="#revit-model-structure" class="md-nav__link">
+    🏗 Revit Model Structure
   </a>
   
 </li>
@@ -345,54 +331,43 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/permitzip/revit-best-practices/edit/master/docs/large-multifam.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/permitzip/revit-best-practices/edit/main/docs/large-multifam.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 <h1 id="campus-multifamily-projects">Campus Multifamily Projects<a class="headerlink" href="#campus-multifamily-projects" title="Permanent link">&para;</a></h1>
-<p>Proposed Revit best practices for PermitZIP multifamily projects that include multiple buildings and phases.</p>
-<h2 id="proposed-model">⊧ Proposed Model<a class="headerlink" href="#proposed-model" title="Permanent link">&para;</a></h2>
-<p><img alt="Proposed Complex Revit Model" src="../assets/images/model_structure.png" /></p>
+<p>The following is a summary of the proposed Revit best practices for PermitZIP multifamily projects that include multiple buildings and phases.</p>
 <h2 id="planning">🏁 Planning<a class="headerlink" href="#planning" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Build the <code>🗽BIM360 Model Structure</code> in <code>BIM 360</code> / <strong>BIM Manager</strong></li>
+<li>Build the <code>🗽 BIM360 Model Structure</code> in <code>BIM 360</code> / <strong>BIM Manager</strong></li>
 <li>Identify typicals / <strong>Design Lead</strong></li>
 <li>Coordinate with architect if possible.</li>
 <li>Do this on a SINGLE shared pdf in a bluebeam session</li>
 <li>Create the Sheet List in <code>Host.rvt</code> / <strong>Design Lead</strong></li>
 </ul>
-<h2 id="bim360-model-structure">🗽BIM360 Model Structure<a class="headerlink" href="#bim360-model-structure" title="Permanent link">&para;</a></h2>
+<h2 id="revit-model-structure">🏗 Revit Model Structure<a class="headerlink" href="#revit-model-structure" title="Permanent link">&para;</a></h2>
+<p><img alt="Proposed Complex Revit Model" src="../assets/images/modecture.png" /></p>
 <ul>
-<li><strong>Host.rvt</strong></li>
-<li><strong>Legend View</strong><ul>
-<li>using a <code>legend views</code> allows the same detail instance to show on multiple sheets. <strong>do not duplicate details as copies!</strong></li>
-<li>Example Information:</li>
-<li>details</li>
-<li>specifications</li>
-<li>legend, abbreviations, notes</li>
+<li><strong>Master.rvt</strong></li>
+<li><strong>Schedules</strong> (modeled elements)<ul>
+<li>General Plan Notes</li>
+<li>Plan Reference notes</li>
+<li>Typical Mapping Schedule</li>
 </ul>
 </li>
-<li><strong>Project Phase Overview</strong><ul>
-<li>Project Phases Overview as <code>legend view</code></li>
+<li><strong>Plan Views</strong><ul>
+<li>Site</li>
+<li>Details</li>
+<li>Specifications</li>
+<li>Typical Units</li>
 </ul>
 </li>
-<li><strong>Typicals.rvt</strong><ul>
-<li>Typicals as <code>plans views</code></li>
-</ul>
-</li>
-<li><strong>Phase I.rvt</strong><ul>
-<li>Infrastructure as <code>plans views</code></li>
-</ul>
-</li>
-<li><strong>Phase II.rvt</strong><ul>
-<li>Infrastructure as <code>plans views</code></li>
-</ul>
-</li>
-<li><strong>Phase III.rvt</strong><ul>
-<li>Infrastructure as <code>plans views</code></li>
-</ul>
-</li>
+<li>Phases (internal configuration)</li>
+<li><strong>BuildingN.rvt</strong> (for each permit set)</li>
+<li><strong>internal building infrastructure</strong></li>
+<li><strong>links to other sheets / typical reference</strong></li>
+<li><strong>general plan notes</strong></li>
 </ul>
 
               
