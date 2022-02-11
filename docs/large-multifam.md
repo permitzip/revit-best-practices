@@ -2,6 +2,10 @@
 
 Proposed Revit best practices for PermitZIP multifamily projects that include multiple buildings and phases.
 
+## ⊧ Proposed Model
+
+![Proposed Complex Revit Model](../docs/assets/images/model_structure.png)
+
 ## 🏁 Planning
 
 - Build the `🗽BIM360 Model Structure` in `BIM 360` / **BIM Manager**
