@@ -1,4 +1,5 @@
-name: ci-revit-docs-build
+
+name: CI
 on:
   push:
     branches:
