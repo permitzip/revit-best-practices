@@ -6,7 +6,7 @@ copyright: (c) 2022 Archingen, PLC
 # Repository
 repo_name: revit-best-practices
 repo_url: https://github.com/permitzip/revit-best-practices
-edit_uri: edit/master/docs
+edit_uri: edit/main/docs
 docs_dir: docs
 
 # Navigation
