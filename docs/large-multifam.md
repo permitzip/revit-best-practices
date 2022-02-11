@@ -2,9 +2,9 @@
 
 Proposed Revit best practices for PermitZIP multifamily projects that include multiple buildings and phases.
 
-## ⊧ Proposed Model
+## ⊧ Proposed Revit Model Structure
 
-![Proposed Complex Revit Model](../docs/assets/images/model_structure.png)
+![Pr Complex Revit Model](../assets/images/modecture.png)
 
 ## 🏁 Planning
 
